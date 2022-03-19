@@ -3,6 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Toolkit Logos */
+.toolkit-logo img {
+  width: 15%;
+}
+
+/*--- Main header and navigation ---*/
+
+/* .main-header,
+.main-nav {
+  display: flex;
+}
+.main-header {
+  background-color: #071e3d;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+.main-header > ul > li > a {
+  color: #fff;
+}
+.main-header > h1 > a {
+  color: #21e6c1;
+}
+.main-nav,
+.logo {
+  margin: auto 0;
+}
+.logo a {
+  font-size: 1.2rem;
+}
+.main-nav > li {
+  padding: 16px 32px;
+}
+ul {
+  list-style: none;
+} */
 
 /* Global */
 /* body {

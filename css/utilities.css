@@ -1,32 +1,6 @@
-a {
+/* a {
   text-decoration: none;
-}
-/* Main header and navigation */
-.main-header,
-.main-nav {
-  display: flex;
-}
-.main-header {
-  background-color: #071e3d;
-  justify-content: space-between;
-  padding: 16px 32px;
-}
-.main-header > ul > li > a {
-  color: #fff;
-}
-.main-header > h1 > a {
-  color: #21e6c1;
-}
-.main-nav,
-.logo {
-  margin: auto 0;
-}
-.main-nav > li {
-  padding: 16px 32px;
-}
-ul {
-  list-style: none;
-}
+} */
 
 /* .hide {
   display: none;
