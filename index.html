@@ -6,10 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/utilities.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-		<script src="https://kit.fontawesome.com/098dc84e4b.js" crossorigin="anonymous"></script>
+		<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+		<script src="https://kit.fontawesome.com/d98675db09.js" crossorigin="anonymous"></script>
         <title>Luke Blache-Fraser Portfolio</title>
     </head>
     <body>
@@ -25,8 +23,9 @@
 			</ul>
 		</header>
 		<!-- Hero Section -->
-		<section class="hero">
-			<img src="./img/profile-pic.jpg">
+		<section id="hero">
+			<!-- <img src="./img/profile-pic.jpg"> -->
+			<img src="https://via.placeholder.com/300">
 			<h2>Hello and WELCOME!</h2>
 			<p>I'm Luke</p>
 			<p>Full Stack Web Developer</p>
@@ -34,7 +33,7 @@
 			<a href="#" class="btn">Contact Me</a>
 		</section>
 		<!-- About Me Section -->
-		<section class="about-me">
+		<section id="about-me">
 			<h2 class="section-header">About Me</h2>
 			<p>
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -62,7 +61,7 @@
 			</div>
 		</section>
 		<!-- Toolkit -->
-		<section class="toolkit">
+		<section id="toolkit">
 			<h2>My Toolkit</h2>
 			<div class="toolkit-logo">
 				<img src="./img/logos/html.svg">
@@ -87,7 +86,7 @@
 			</div>
 		</section>
 		<!-- Projects -->
-		<section class="projects">
+		<section id="projects">
 			<h2>Projects</h2>
 			<div class="project-headings">
 				<h3 class="project-heading">Front-End</h3>
@@ -111,6 +110,28 @@
 			</div>
 		</section>
 		<!-- Contact Me -->
+		<section id="contact">
+			<form class="contact-left-panel">
+				<h2>Contact Me</h2>
+				<input type="text" id="fname" name="first_name" placeholder="First Name">
+				<input type="text" id="lname" name="last_name" placeholder="Last Name">
+				<input type="email" id="email" name="user_email" placeholder="Email">
+				<textarea id="message" name="email_message"></textarea>
+				<button type="submit">Submit</button>
+			</form>
+			<div class="contact-right-panel">
+				<button><span><i class="fa-brands fa-whatsapp"></i></span>WhatsApp</button>
+			</div>
+		</section>
+		
+		<!-- Footer -->
+		<footer>
+			<h2>Thanks for visiting!</h2>
+			<i class="fa-brands fa-linkedin"></i>
+			<i class="fa-brands fa-github"></i>
+			<i class="fa-brands fa-whatsapp"></i>
+			<p>Copyright &copy 2022 Luke Blache-Fraser.</p>
+		</footer>
 		
     </body>
 </html>
